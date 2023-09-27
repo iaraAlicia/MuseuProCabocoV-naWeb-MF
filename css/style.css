@@ -1504,11 +1504,19 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-minimal .box-minimal-icon {
 	margin: auto;
-	padding: 23px;
-	background: #FFF1EF;
+    background: #FFF1EF;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    object-fit: cover;
+    width: 290px;
+}
+.box-minimal .box-minimal-icon img{
+	display: inline-block;
+    max-width: 100%;
+    height: 100%;
+	object-fit: cover;
 	border-radius: 50%;
-	height: 90px;
-	width: 90px;
 }
 
 .box-minimal .box-minimal-title {
@@ -4118,7 +4126,6 @@ html.tablet .ui-to-top {
 	line-height: 48px;
 	cursor: pointer;
 	color: #cccccc;
-	background-color: transparent;
 	border: none;
 	display: none;
 }
